@@ -1,0 +1,8 @@
+//font
+$fontFamily: Arial, Helvetica, sans-serif;
+$fontSizeM: 16px;
+$lineHeightM: 1.4;
+$fontSizeL: 24px;
+$lineHeightL: 1.4;
+$fontM: #{$fontSizeM}/#{$lineHeightM} $fontFamily;
+$fontL: #{$fontSizeL}/#{$lineHeightL} $fontFamily;

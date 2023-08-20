@@ -1,0 +1,23 @@
+@use "variables/global";
+@use 'themes/default' as *;
+@use 'themes/light' as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: inherit;
+}
+
+.app {
+  min-height: 100vh;
+  padding: 0 20px;
+  font: global.$fontM;
+  color: var(--colorSecondary);
+  background-color: var(--colorBG);
+}
+
+h1 {
+  color: var(--colorPrimary);
+  font: global.$fontL;
+}
